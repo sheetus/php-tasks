@@ -1,9 +1,0 @@
- if(strlen($name)<100){
-        $nameerror ="";
-        }
-        elseif(strlen($message)<255){
-            $messageError="Your message must be more than 255 characters ";
-        }
-        elseif(!filter_var($email,FILTER_VALIDATE_EMAIL)){
-            $emailerror="Your message must be more than 255 characters ";
-        }
